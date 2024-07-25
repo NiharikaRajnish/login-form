@@ -1,0 +1,148 @@
+
+.App-header {
+    background: #fff url('./assets/bg-01.jpg') no-repeat center center; /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+form {
+    background: #fff;
+    padding: 3vw;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90vw; /* Adjust width for better responsiveness */
+    max-width: 500px; /* Ensure it doesn’t exceed the max-width */
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding-top: 1vw; 
+    margin-bottom: 2vw;
+  }
+
+
+  
+  .social-buttons {
+    display: flex;
+    flex-direction: row; /* Align buttons horizontally */
+    gap: 10px; /* Add space between the buttons */
+    width: 100%;
+    justify-content: center; /* Center buttons within the container */
+    margin-bottom: 50px; /* Add space between the social buttons and the form fields */
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .facebook-button {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .facebook-button:hover {
+    background-color: #365492;
+  }
+  
+  .google-button {
+    background-color: white;
+    color: black;
+     border: 2px solid #6a6a6a;
+  }
+  
+  .google-button:hover {
+    background-color: #767170;
+  }
+  
+  label {
+    /* display: flex; */
+    margin-bottom: 8px;
+    width: 100%; /* Ensure labels take full width */
+    text-align: left; /* Align text to the left */
+    justify-content: space-around;
+  }
+
+  .forgot-password {
+    display: flex;
+    justify-content: space-between; /* Ensure label and link are spaced properly */
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 8px;
+    width: 100%; /* Ensure the container takes full width */
+  }
+  
+  .forgot-password label {
+    margin: 0; /* Remove margin to ensure alignment */
+    width: auto; /* Allow label to adjust based on content */
+  }
+  
+  .forgot-password a {
+    font-size: 16px; /* Adjust font size if needed */
+    color: #007bff; /* Add color if desired */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Add space between label and link */
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+
+  input {
+    width: 100%;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  label{
+    color: #000;
+  }
+  
+  button[type="submit"] {
+    border: none;
+    background-color: #070707;
+    color: white;
+    font-size: 1.5vw;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #21a1f1;
+  }
+
+  .sign-in-with {
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-size: 2.5em;
+    color: #000;
+    
+  }
+  
+  .error-message {
+    color: #f44336; /* Red color for error messages */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space below the error message */
+    text-align: center; /* Center the text */
+  }
